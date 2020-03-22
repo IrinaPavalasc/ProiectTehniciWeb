@@ -1,0 +1,11 @@
+ th,td{
+            border:3px groove indianred;
+            padding:20px;
+        }
+        td:empty{
+            padding:20px;
+        }
+        table{
+            border-collapse:collapse;
+            empty-cells:show;
+        }

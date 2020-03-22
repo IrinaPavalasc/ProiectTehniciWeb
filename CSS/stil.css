@@ -1,0 +1,83 @@
+body{ background-color:snow;}
+main{	padding-left: 100px;
+		padding-right: 5px;
+		padding-top:150px;}
+
+.c1{ text-align:center;}
+.c2{ border: 1px solid gainsboro;
+	width: 30%;
+	border-radius: 20px;}
+		
+.c3 {  background-image: url('https://www.freevector.com/uploads/vector/preview/30317/Pastel-Background-01.jpg');
+       display: flex;
+	   flex-direction: row;
+	   flex-wrap: wrap;
+       width:90%;
+	   align-items: center;
+	   justify-content: space-around;
+	   border: solid thistle;
+	   font-size:1.7rem;
+	   padding-bottom: 10px;
+}
+
+footer{ background-color:gainsboro;
+		border-top:1px solid darkgray;}
+		
+nav{    background-image: url('https://wallpaperplay.com/walls/full/a/3/6/378486.jpg');
+		border:2px solid thistle;
+		width:150%;
+		position:fixed;
+		top:10px;
+		left: 0px;
+		right:10px
+	}
+
+	ul.menu>li, ul.menu>li>ul.submenu>li{
+		display:block;
+		font-size:1.2rem;
+		height:3rem;
+		line-height:3rem;
+		text-align:center;		
+		list-style-type:none;
+		overflow:hidden;
+	}
+	ul.menu>li{
+	 float:left;
+	 width:9.5%;
+	}
+	ul.submenu>li{
+	 width:100%;
+	}
+	ul.menu>li>a,ul.menu>li>div,ul.submenu>li>a{
+		display:block;
+		height:	100%;
+		text-decoration:None;
+		color:black;
+	}
+	ul.menu>li:nth-of-type(even) a, ul.menu>li:nth-of-type(even) div{
+		background:transparent;
+	}
+	ul.menu>li:nth-of-type(odd) a, ul.menu>li:nth-of-type(odd) div{
+		background:transparent;
+	}
+
+	ul.menu>li>ul.submenu{
+		position:relative;
+		top:0px;
+	}
+
+	ul.menu>li>ul.submenu>li
+	{
+		border-top:1px solid black;
+	}
+	ul.menu>li>ul.submenu>li:last-child
+	{
+		border-bottom:1px solid black;
+	}
+
+	ul.menu>li>a:hover, ul.submenu>li>a:hover{
+		background:lightyellow;
+	}
+	ul.menu>li:hover{
+		overflow:visible;
+	}
