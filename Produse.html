@@ -5,34 +5,42 @@
 		<meta charset="UTF-8">
 		<meta name="description" content="Cofetarie">
 		<meta name="keywords" content="Promotii, Istoric, Torturi, Contact">
-		<link rel="shortcut icon" type="image/x-icon" href="./favicon.ico"/>
+		<link rel="shortcut icon" type="image/x-icon" href="Favicon/favicon.ico"/>
+		<link rel="shortcut icon" type="image/x-icon" href="Favicon/favicon.ico"/>
 		<link rel="stylesheet" type="text/css" href="CSS/stil.css"/>
+		<link rel="stylesheet" type="text/css" href="CSS/Stil-Produse.css"/>
+		<link href="https://fonts.googleapis.com/css?family=Lobster" rel="stylesheet">
+		<link href="https://fonts.googleapis.com/css?family=Cabin" rel="stylesheet">
+
+	
 	
 	</head>
 	<body>
 		<header>
 			<nav class="wrapper">
-				<h1> Cofetaria Maria </h1>
+				<img class="logo" src="Poze/Logo.png" alt="">
 				<ul class="menu">
-					<li><div>Acasa</div>
+					<li><div class="c1 c2">Acasa</div>
 						<ul class="submenu">
-							<li><a href="index.html#ScurtIstoric">Scurt Istoric</a></li>
-							<li><a href="index.html#Promotii">Promotii</a></li>
+							<li><a href="index.html#ScurtIstoric" class="c1 c2">Scurt Istoric</a></li>
+							<li><a href="index.html#Promotii"class="c1 c2">Promotii</a></li>
 						</ul>
 					</li>
 					
-					<li><div>Produse</div>
+					<li><div class="c1 c2">Produse</div>
 						<ul class="submenu" >
-							<li><a href="Produse.html#Torturi">Torturi</a></li>
-							<li><a href="Produse.html#Prajituri">Prajituri</a></li>
+							<li><a href="Produse.html#Torturi" class="c1 c2">Torturi</a></li>
+							<li><a href="Produse.html#Prajituri" class="c1 c2">Prajituri</a></li>
+							<li><a href="Produse.html#CandyBar" class="c1 c2">Candy Bar</a></li>
 						</ul>
 					</li>
-					<li><a href="Album.html">Album</a></li>
+					<li><a href="Album.html"class="c1 c2">Album</a></li>
 					
-					<li><div>Detalii</div>
+					<li><div class="c1 c2">Detalii</div>
 						<ul class="submenu" >
-							<li><a href="Detalii.html#Contact">Contact</a></li>
-							<li><a href="Detalii.html#Program">Program</a></li>
+							<li><a href="Detalii.html#Contact"class="c1 c2">Contact</a></li>
+							<li><a href="Detalii.html#Program" class="c1 c2">Program</a></li>
+							<li><a href="Detalii.html#RetetaMariei" class="c1 c2">RetetaMariei</a></li>
 						</ul>
 					</li>	
 					     
@@ -43,18 +51,20 @@
 	    </header>
 		<main>
 			<section id="Produse">
-				<h2>Produse</h2>
-				<section>
-					<h3 id="Torturi"> Torturi </h3>
-						<ul>
+				<h2 class="c1 c2">Produse</h2>
+				<div class ="grid_container">
+				<div id="Torturi" class="c2">
+					<h3 class="titlu"> Torturi </h3>
+						<ul class="text_centrat">
 							<li>Torturi Aniversare</li>
 							<li>Torturi de Nunta</li>
 							<li>Torturi Standard</li>
 						</ul>
-				</section>
-				<section>
-					<h3 id="Prajituri"> Prajituri </h3>
-						<ul>
+				
+				</div>
+				<div id="Prajituri"  class="c2">
+					<h3 class="titlu"> Prajituri </h3>
+						<ul >
 							<li>Savarina</li>
 							<li>Amandina</li>
 							<li>Ecler Cacao</li>
@@ -62,14 +72,18 @@
 							<li>Tarta Fructe</li>
 							<li>Prajitura Casei</li>
 						</ul>
-				</section>
-				<p><small>Produsele pot contine alergeni.</small></p>
+				</div>
+				<div id="CandyBar" class="c2">
+					<h3 class="titlu">Candy Bar</h3>
+				</div>
+				</div>
+				<p><small><span>Produsele pot contine alergeni.<span></small></p>
 			</section>
 	    </main>
 		<footer>
 			 <p><small>Copyright 2013 Cofetaria Maria| Toate drepturile rezervate.</small></p>
 			 <p><small>Va oferim produse de calitate inca din <time datetime="1991">1991</time>.<small> </p>
-			 <a href="#">Inceput de pagina</a>
+			 <a href="#" class="c2">Inceput de pagina</a>
 		</footer>
 		
 		

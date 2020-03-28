@@ -8,68 +8,94 @@
 		<link rel="shortcut icon" type="image/x-icon" href="Favicon/favicon.ico"/>
 		<link rel="stylesheet" type="text/css" href="CSS/stil.css"/>
 		<link rel="stylesheet" type="text/css" href="CSS/Stil-Index.css"/>
+		<link href="https://fonts.googleapis.com/css?family=Lobster" rel="stylesheet">
+		<link href="https://fonts.googleapis.com/css?family=Cabin" rel="stylesheet">
+
 	
 	</head>
 	<body>
+		
 		<header>
 			<nav class="wrapper">
-				<h1> Cofetaria Maria </h1> 
+				
+				
+						<img class="logo" src="Poze/Logo.png" alt="">
+			
 				<ul class="menu">
-					<li><div>Acasa</div>
+					
+					<li><div class="c1 c2">Acasa</div>
 						<ul class="submenu">
-							<li><a href="index.html#ScurtIstoric">Scurt Istoric</a></li>
-							<li><a href="index.html#Promotii">Promotii</a></li>
+							<li><a href="index.html#ScurtIstoric"class="c1 c2">Scurt Istoric</a></li>
+							<li><a href="index.html#Promotii"class="c1 c2">Promotii</a></li>
 						</ul>
 					</li>
 					
-					<li><div>Produse</div>
+					<li><div class="c1 c2">Produse</div>
 						<ul class="submenu" >
-							<li><a href="Produse.html#Torturi">Torturi</a></li>
-							<li><a href="Produse.html#Prajituri">Prajituri</a></li>
+							<li><a href="Produse.html#Torturi"class="c1 c2">Torturi</a></li>
+							<li><a href="Produse.html#Prajituri"class="c1 c2">Prajituri</a></li>
+							<li><a href="Produse.html#CandyBar"class="c1 c2">Candy Bar</a></li>
 						</ul>
 					</li>
-					<li><a href="Album.html">Album</a></li>
+					<li><a href="Album.html" class="c1 c2">Album</a></li>
 					
-					<li><div>Detalii</div>
+					<li><div class="c1 c2">Detalii</div>
 						<ul class="submenu" >
-							<li><a href="Detalii.html#Contact">Contact</a></li>
-							<li><a href="Detalii.html#Program">Program</a></li>
+							<li><a href="Detalii.html#Contact" class="c1 c2">Contact</a></li>
+							<li><a href="Detalii.html#Program" class="c1 c2">Program</a></li>
+							<li><a href="Detalii.html#RetetaMariei" class="c1 c2">RetetaMariei</a></li>
 						</ul>
 					</li>	
 					     
 				</ul>
+				
 			</nav>
+		
 	    </header>
 		<main>
 			<section id="Acasa">
-				<p class="c1"> In fiecare prajitura presaram mireasma placuta a prajiturilor bunicii sau aromele cuceritoare ale cofetariei internationale. </p>
-				<section id="ScurtIstoric" class="c2">
+				<p class="c1 c2" id="header"> In fiecare prajitura presaram mireasma placuta a prajiturilor bunicii sau aromele cuceritoare ale cofetariei internationale. </p>
+			
+				<div id="ScurtIstoric" class="c2">
+		
 					<h3 class="c1">Scurt Istoric</h3>
 
 					<p>Am debutat in anul <time datetime="1991">1991</time>, cu fabricarea produselor de patiserie.</p>
                     <p>Datorita parerilor pozitive primite din partea clientilor multumiti de calitatea produselor de patiserie, am decis ca în anul <time datetime="1994">1994</time> sa ne extindem activitatea prin fabricarea si comercializarea produselor de cofetarie.</p>
 					<p>Am oferit clientilor prajiturile traditionale, precum amandina, savarina si eclerul, toate lucrate cu pricepere si maiestrie, folosind materii prime naturale de cea mai buna calitate.</p>
-				</section>
+					<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+				</div>
 
-				<section id="Promotii"> 
-					<h3>Promotii</h3>
-					<div class="c3">
+				<div id="Promotii"> 
+					
+							<h3 class="c1 c2" class="grid-item" ><span>Promotii</span></h3>
+								<p><em class="c2"> Marti</em> Ziua Torturilor, %10 reducere la orice tort aniversar comandat!</p>
+								<p><em class="c2">Miercuri</em> La 3 platouri comandate, iti oferim o cutie de prajituri gratis!</p>
+								<p><em class="c2">Joi</em> 20% reducere la pachetele Candy Bar aniversare.</p>
+								<p><small><span>Comanda minima de 150 de lei<span></small></p>
 						
-							<p><em> Marti</em> Ziua Torturilor, %10 reducere la orice tort aniversar comandat!</p>
-							<p><em>Miercuri</em> La 3 platouri comandate, iti oferim o cutie de prajituri gratis!<p>
-					         <small>Comanda minima de 150 de lei</small></p>
-						
-					</div>
-				</section>
+					
+				</div>
+				<div id="a"><em class="c2"> Fresh!</em><br>
+					Produsele Cofetaria Maria sunt mereu proaspete si sunt realizate in laboratorul nostru in ziua livrarii</div>
+				<div id="b"><em class="c2"> Degustare Gratuita!</em><br>
+					Degusta gratuit unul dintre produsele noastre. Sunati-ne pentru o programare.<br>
+					Vezi Detalii</div>
+				<div id="c"><em class="c2">  Transport Gratuit!</em> <br>
+					Beneficiezi de transport gratuit in Bucuresti pentru comenzi de minim 150 de lei</div>
 			</section>
 
-
+	
 	</main>
+	
 		<footer>
 			 <p><small>Copyright 2013 Cofetaria Maria| Toate drepturile rezervate.</small></p>
 			 <p><small>Va oferim produse de calitate inca din <time datetime="1991">1991</time>.<small> </p>
 			 
-			 <a href="#">Inceput de pagina</a>
+			 <a href="#" class="c2">Inceput de pagina</a>
 		</footer>
+	
+
+	
 	</body>
 </html>

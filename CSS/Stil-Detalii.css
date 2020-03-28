@@ -1,0 +1,29 @@
+
+#Contact{ margin-top:50px; 
+		 margin-bottom:50px;
+		  border: dashed #c94c4c;
+		  border-radius: 30px;
+		  float:center-left;
+		  font-size:0.8em;
+		 background-color:#eea29a;}
+ th,td{
+            border:3px solid #c94c4c;
+            padding:20px;
+        }
+        td:empty{
+            padding:20px;
+        }
+        table{
+            border-collapse:collapse;
+            empty-cells:show;
+        }
+#RetetaMariei{	border: solid #deeaee;
+				padding-left:90px;
+				background-color: #fff;
+				background-image:
+				linear-gradient(90deg, transparent 79px, #abced4 79px, #abced4 81px, transparent 81px),
+				linear-gradient(#eee .1em, transparent .1em);
+				background-size: 100% 1.2em;}
+
+
+
